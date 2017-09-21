@@ -1,0 +1,16 @@
+{
+  "name": "sjon",
+  "version": "0.0.0-development",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bryantebeek/sjon.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^8.0.0"
+  }
+}
