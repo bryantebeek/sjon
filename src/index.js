@@ -5,4 +5,4 @@ const pkg = require('./package.json');
 
 updateNotifier({pkg}).notify();
 
-console.log('release');
+console.log('sjon');
