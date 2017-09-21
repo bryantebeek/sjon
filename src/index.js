@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
-const updateNotifier = require('update-notifier');
-const pkg = require('./package.json');
-
-updateNotifier({pkg}).notify();
+const notifier = require('update-notifier')();
+if (notifier.update) notifier.notify();
 
 console.log('sjon');
